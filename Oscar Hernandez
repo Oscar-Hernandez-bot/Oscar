@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hola Mundo</title>
+</head>
+<body>
+    <h1 id="mensaje"></h1>
+    <script>
+        const mensaje = "Hola mundo, soy el mejor futbolista";
+        console.log(mensaje); // Muestra el mensaje en la consola
+        document.getElementById("mensaje").textContent = mensaje; 
+    </script>
+</body>
+</html>
